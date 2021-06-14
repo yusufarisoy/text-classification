@@ -20,7 +20,7 @@ With Logistic Regression classifier it uses the training data for learning and t
 ![X](in_app_screenshots/X_vectorized.png)
 
 #### Categories - Test data and prediction data
-![category test](in_app_screenshots/category_test.png) ![category prediction](in_app_screenshots/category_predictions.png)
+![category test](in_app_screenshots/category_test.png)     ![category prediction](in_app_screenshots/category_predictions.png)
 
 #### Sentences - Training data and test data
 ![sentences test](in_app_screenshots/text_train.png)
