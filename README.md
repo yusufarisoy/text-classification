@@ -2,7 +2,7 @@
 A Python text classification program uses Tf/Idf model and Logistic Regression
 
 ## Text Generation
-There are sentences and their categories stored in a two dimensional matrix named examples. With [Google Trans API](https://pypi.org/project/googletrans/), program automatically generates new sentences; first it translates the example sentence to English then translates it back to Turkish and if there is a difference in between two sentences it stores the new one and continues until it generates the same sentence and then stops and passes to the next example.
+There are sentences and their categories stored in a two dimensional matrix named examples. With [Google Trans API](https://pypi.org/project/googletrans/), program automatically generates new sentences; first it translates the example sentence to English then translates it back to Turkish and if there is a difference in between two sentences it stores the new one (after pre-processing) and continues until it generates the same sentence and then stops and passes to the next example.
 
 ![generation](in_app_screenshots/generation.png)
 
