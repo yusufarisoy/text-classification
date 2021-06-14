@@ -10,6 +10,7 @@ There are sentences and their categories stored in a two dimensional matrix name
 
 ## Training and Predicting
 After generation it'll have enough training data to go. There are only 100 sentences but still I dumped the data with [Pickle](https://docs.python.org/3/library/pickle.html) for to make program faster with big data. Program first creates a bow (bag of words) model than transforms it to a Tf/Idf model. After that it splits the data for training and testing (10% test - 90% train).
+
 With Logistic Regression classifier it uses the training data for learning and then predicts the test data. After that it compares the predictions with actual categories and shows the result in a confusion matrix. Program provides 90% accuracy with only 90 training data, if better trained the results will be better.
 
 #### Confusion Matrix
