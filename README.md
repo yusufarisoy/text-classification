@@ -1,4 +1,4 @@
-"# text-classification" 
+# text-classification
 A Python text classification program uses Tf/Idf model and Logistic Regression
 
 ## Text Generation
